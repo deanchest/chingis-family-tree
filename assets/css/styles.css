@@ -1,0 +1,93 @@
+#tree-simple {
+    margin-top: 100px;
+    margin-bottom: 100px;
+    /* position: relative; */
+    /* left: 25%; */
+    background-color: aliceblue;
+    height: 90%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container {
+    margin-left: 0;
+    margin-right: 0;
+}
+body {
+    background-color: aliceblue;
+    overflow: auto;
+}
+#info {
+    position: relative;
+    left: 0;
+    width: auto;
+}
+#info p {
+    color: white;
+}
+
+#info h {
+    color: yellow;
+    font-size: 24px;
+}
+
+#info a {
+    margin-left: 10%;
+    color: white;
+}
+
+img {
+    height: 150px;
+    width: 125px;
+}
+
+.khagan {
+    background-color: aqua;
+
+}
+
+.ilkhan {
+    background-color: lightcoral;
+}
+
+.yuan {
+    background-color: yellow;
+}
+
+.horde {
+    background-color: lightseagreen;
+}
+
+.chagatai {
+    background-color: lightpink;
+}
+
+.node {
+    height: 154px;
+    width: 300px;
+    border-style: solid;
+    border-width: 2px;
+}
+
+.node p {
+    text-align: center;
+}
+
+.node-name {
+    font-size: 20px;
+    font-weight: bold; 
+}
+
+.Treant .collapse-switch { 
+    top: 70%;
+    height: 50px;
+    width: 50px;
+    border: none;
+    background: url("../img/misc/remove-24px.svg");
+    background-size: 100% 100%;
+}
+
+.Treant .collapsed .collapse-switch {
+    background: url("../img/misc/add-24px.svg");
+    background-size: 100% 100%;
+}
